@@ -1,0 +1,29 @@
+{
+  "name": "web-vr",
+  "version": "1.0.0",
+  "description": "Web de recorrido virtual con imagen en 360",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanapimentel/web-vr.git"
+  },
+  "keywords": [
+    "web",
+    "vr",
+    "johana",
+    "image360"
+  ],
+  "author": "Vanessa Pimentel <johanapimentel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johanapimentel/web-vr/issues"
+  },
+  "homepage": "https://github.com/johanapimentel/web-vr#readme",
+  "dependencies": {
+    "panolens": "^0.10.4",
+    "three": "^0.130.1"
+  }
+}

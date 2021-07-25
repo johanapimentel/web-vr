@@ -1,0 +1,9 @@
+.main{
+	background-color: rgb(160, 44, 44);
+}
+.main__canvas {
+	width: 1320px; 
+	height: 879px; 
+	display: block; 
+	transition: opacity 0.5s ease 0s;
+}
