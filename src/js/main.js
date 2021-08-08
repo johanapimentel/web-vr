@@ -1,5 +1,5 @@
 const panoImage = document.querySelector(".pano-image");
-const miamiPano = "https://i.imgur.com/E5nbVIB.jpg";
+const miamiPano = "https://i.imgur.com/Enm1s6x.jpg";
 
 const panorama = new PANOLENS.ImagePanorama(miamiPano);
 const viewer = new PANOLENS.Viewer({
