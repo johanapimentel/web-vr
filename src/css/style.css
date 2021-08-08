@@ -1,9 +1,24 @@
-.main{
-	background-color: rgb(160, 44, 44);
+/* 
+color_h4 #FCF9F9 GRIS
+color_h3 #F1F864 AMARILLO
+color_h2 #BCEB3C VERDE CLARO
+color_h1 #7CBD1E VERDE OSCURO
+
+font-family: 'Montserrat', sans-serif; TEXTO
+font-family: 'Quicksand', sans-serif; TITULOS
+
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+    background: #FCF9F9;
 }
-.main__canvas {
-	width: 1320px; 
-	height: 879px; 
-	display: block; 
-	transition: opacity 0.5s ease 0s;
+h1,h2,h3,h4,h5,h6{
+    color: #7CBD1E;
+    font-family: 'Quicksand', sans-serif;
+}
+.pano-image, .cocina{
+    width: 400px;
+    height: 200px;
 }
