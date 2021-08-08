@@ -17,6 +17,18 @@ body{
 h1,h2,h3,h4,h5,h6{
     color: #7CBD1E;
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+nav{
+    text-align: center;
+    align-items: center;
+}
+.logo{
+    width: 30px;
+}
+.logo-titulo{
+    color: #333;
+    margin-left: 5px;
 }
 .pano-image, .cocina{
     width: 400px;
