@@ -1,7 +1,7 @@
 const panoImage = document.querySelector(".pano-image");
-const miamiPano = "https://i.imgur.com/ccbAKAN.jpg";
+const jardines = "https://i.imgur.com/lulDsY8.jpg";
 
-const panorama = new PANOLENS.ImagePanorama(miamiPano);
+const panorama = new PANOLENS.ImagePanorama(jardines);
 const viewer = new PANOLENS.Viewer({
     container: panoImage
 });
@@ -9,9 +9,9 @@ const viewer = new PANOLENS.Viewer({
 viewer.add(panorama);
 
 const panoImage2 = document.querySelector(".cocina");
-const jardines = "https://i.imgur.com/y00M0iZ.jpg";
+const oliver = "https://i.imgur.com/y00M0iZ.jpg";
 
-const panorama2 = new PANOLENS.ImagePanorama(jardines);
+const panorama2 = new PANOLENS.ImagePanorama(oliver);
 const viewer2 = new PANOLENS.Viewer({
     container: panoImage2
 });
