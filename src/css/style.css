@@ -14,7 +14,7 @@ body{
     color: #666;
     background: #FCF9F9;
 }
-h1,h2,h3,h4,h5,h6{
+h1{
     color: #7CBD1E;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
@@ -30,7 +30,11 @@ nav{
     color: #333;
     margin-left: 5px;
 }
+.main{
+    margin: 20px;
+}
 .pano-image, .cocina{
     width: 400px;
     height: 200px;
+    margin: 10px;
 }
