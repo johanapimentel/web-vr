@@ -33,7 +33,8 @@ nav{
 .main{
     margin: 20px;
 }
-.pano-image, .cocina{
+.pano-image, 
+.cocina{
     width: 400px;
     height: 200px;
     margin: 10px;
