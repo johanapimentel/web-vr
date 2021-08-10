@@ -12,17 +12,26 @@ font-family: 'Quicksand', sans-serif; TITULOS
 body{
     font-family: 'Montserrat', sans-serif;
     color: #666;
-    background: #FCF9F9;
+    background-color: #FCF9F9;
 }
 h1{
     color: #7CBD1E;
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
-nav{
+p{
+    text-align: justify;
+}
+.navbar{
+    background-color: transparent;
+}
+.dropdown-menu{
+    background-color: transparent;
+}
+/* nav{
     text-align: center;
     align-items: center;
-}
+} */
 .logo{
     width: 30px;
 }
@@ -38,4 +47,8 @@ nav{
     width: 400px;
     height: 200px;
     margin: 10px;
+}
+.modal-dialog{
+    max-width: 85%;
+    height: auto;
 }
