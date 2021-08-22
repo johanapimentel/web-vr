@@ -1,14 +1,18 @@
 const panoImage = document.querySelector(".pano-image");
 const jardines = "https://i.ibb.co/N6vDMBL/jardines360-2k.jpg";
-
-
-
 const panorama = new PANOLENS.ImagePanorama(jardines);
 const viewer = new PANOLENS.Viewer({
     container: panoImage
 });
+// let b = document.getElementById("extraer");
+// b.addEventListener("click", aqui);
+
+// const aqui = ()=>{
+//     console.log(`aquio`);
+// };
 
 viewer.add(panorama);
+
 
 const panoImage2 = document.querySelector(".cocina");
 const oliver = "https://i.ibb.co/CBpyfvM/oliverversion5.png";
