@@ -26,13 +26,13 @@ h4{
 .carousel-caption > h5{
     color: #BCEB3C;
     text-align: center;
-    font-size: 9em;
+    font-size: 7em;
     text-shadow: 2px 2px 2px #333;
     background-color: rgba(0,0,0,0.6);
 }
 .carousel-caption > p{
     text-align: center;
-    font-size: 5em;
+    font-size: 3em;
     text-shadow: 2px 2px 2px #333;
     background-color: rgba(0,0,0,0.6);
 }
@@ -113,9 +113,20 @@ small{
     color: #BCEB3C;
     text-shadow: 1px 1px 1px #333;
 }
-
+.carousel-caption {
+    bottom: 30rem;
+}
 @media only screen and (max-width: 600px){
     .galeria{
         column-count: 2;
+    }
+    .carousel-caption {
+        bottom: 1rem;
+    }
+    .carousel-caption > h5{
+        font-size: 2em;
+    }
+    .carousel-caption > p{
+        font-size: 1em;
     }
 }
