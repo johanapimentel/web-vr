@@ -8,7 +8,7 @@ var preloadImage = function (url) {
 }
 
 //const jardines = "https://i.ibb.co/N6vDMBL/jardines360-2k.jpg";
-const panorama = new PANOLENS.ImagePanorama(jardines.src);
+const panorama = new PANOLENS.ImagePanorama(preloadImage();
 const viewer = new PANOLENS.Viewer({
     container: panoImage
 });
