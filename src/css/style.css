@@ -1,3 +1,4 @@
+
 /* 
 color_h4 #FCF9F9 GRIS
 color_h3 #F1F864 AMARILLO
@@ -8,6 +9,9 @@ font-family: 'Montserrat', sans-serif; TEXTO
 font-family: 'Quicksand', sans-serif; TITULOS
 
 */
+
+@import url('../../node_modules/@fortawesome/fontawesome-free/css/all.css');
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
 body{
     font-family: 'Montserrat', sans-serif;

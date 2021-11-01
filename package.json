@@ -24,9 +24,11 @@
   "homepage": "https://github.com/johanapimentel/web-vr#readme",
   "dependencies": {
     "@3dweb/360javascriptviewer": "^1.8.14",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
     "http-errors": "^1.7.2",
     "morgan": "^1.10.0",
     "panolens": "^0.10.4",

@@ -1,5 +1,13 @@
 const panoImage = document.querySelector(".pano-image");
-const jardines = "https://i.ibb.co/N6vDMBL/jardines360-2k.jpg";
+
+var preloadImage = function (url) {
+    try {
+        var jardines = new Image();
+        jardines.src = "https://i.ibb.co/N6vDMBL/jardines360-2k.jpg";
+    } catch (e) { }
+}
+
+//const jardines = "https://i.ibb.co/N6vDMBL/jardines360-2k.jpg";
 const panorama = new PANOLENS.ImagePanorama(jardines);
 const viewer = new PANOLENS.Viewer({
     container: panoImage
